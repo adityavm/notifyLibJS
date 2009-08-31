@@ -4,7 +4,8 @@ Exposes a "notifications" namespace (new in 1.1) which contains the following pr
 
 Properties
 ==========
-	
+
+
 * `prism` (boolean) : whether Prism notifications are supported
 * `fluid` (boolean) : whether Fluid notifications are supported
 * `growler`` (boolean) : whether Growler (for Safari) notifications are supported
