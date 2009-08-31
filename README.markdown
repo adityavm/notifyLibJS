@@ -5,10 +5,10 @@ Exposes a "notifications" namespace (new in 1.1) which contains the following pr
 Properties
 ==========
 	
-	prism (boolean)					: whether Prism notifications are supported
-	fluid (boolean)					: whether Fluid notifications are supported
-	growler (boolean)				: whether Growler (for Safari) notifications are supported
-	notifications_support (boolean)	: whether a notification API is present (check this value to decide if you need to continue with notification specific code e.g. requesting additional data)
+* `prism` (boolean) : whether Prism notifications are supported
+* `fluid` (boolean) : whether Fluid notifications are supported
+* `growler`` (boolean) : whether Growler (for Safari) notifications are supported
+* `notifications_support` (boolean) : whether a notification API is present (check this value to decide if you need to continue with notification specific code e.g. requesting additional data)
 	
 	
 Methods
@@ -19,8 +19,11 @@ Methods
 		   icon,
 		   priority,
 		   sticky,
-		   identifier })			: post a notification with given information. All keys are optional
-	
+		   identifier })
+
+— Post a notification with given information. All keys are optional
+
+---	
 
 To post a default notification, simply call:
 
