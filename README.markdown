@@ -2,9 +2,7 @@ Unified notifications library to handle Growl notifications across all available
 
 Exposes a "notifications" namespace (new in 1.1) which contains the following properties and methods:
 
-Properties
-==========
-
+### Properties
 
 * `prism` (boolean) : whether Prism notifications are supported
 * `fluid` (boolean) : whether Fluid notifications are supported
@@ -12,8 +10,7 @@ Properties
 * `notifications_support` (boolean) : whether a notification API is present (check this value to decide if you need to continue with notification specific code e.g. requesting additional data)
 	
 	
-Methods
-=======
+### Methods
 	
 	notify 	({ title,
 		   description,
